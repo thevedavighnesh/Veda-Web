@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vedaflix</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Vedaflix</h1>
+    <input type="text" id="search-input" placeholder="Search for a movie..." />
+  </header>
+  <main></main>
+  <div id="modal" class="modal hidden">
+    <div id="modal-content">
+      <span id="close-modal">&times;</span>
+      <video id="player" controls autoplay></video>
+      <h2 id="video-title"></h2>
+      <p id="video-description"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Signup Container */
+  .signup-container {
+    background-color: #1e1e1e;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Header Styling */
+  .signup-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff0000;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #ccc;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    background-color: #292929;
+    color: #fff;
+  }
+  
+  input::placeholder {
+    color: #666;
+  }
+  
+  input:focus {
+    border: 1px solid #ff0000;
+    box-shadow: 0 0 5px #ff0000;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+    background: #ff0000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background: #cc0000;
+    transform: scale(1.05);
+  }
+  
+  /* Message Styling */
+  #message {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  
+  /* Link Styling */
+  a {
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    display: inline-block;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #ff6666;
+  }
+  
